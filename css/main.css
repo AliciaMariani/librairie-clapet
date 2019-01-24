@@ -34,8 +34,9 @@ b, strong, optgroup {
 
 h1 {
   margin: 25px 0;
-  font-size: 4.5em;
-  font-weight: 700;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
