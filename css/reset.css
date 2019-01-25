@@ -402,7 +402,9 @@ a img {
 
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+  padding-top: 60px;
+  padding-bottom: 60px;}
 
 hr {
   border: none;

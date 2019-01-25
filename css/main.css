@@ -15,8 +15,12 @@ body {
 }
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
-  font-size: 1.4em;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-family: 'Work Sans', sans-serif;
   line-height: 1.4;
+  text-align: justify;
 }
 
 li {
@@ -96,9 +100,7 @@ button {
 
 .container {
   margin: auto;
-  padding: 0 15px;
-  width: 960px;
-  max-width: 100%;
+  max-width: 960px;
   text-align: center;
 }
 
@@ -202,10 +204,13 @@ button {
 
 .chapo {
   font-size: 25px;
+  max-width: 960px; 
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   color: #1a1a1a;
-  text-align: center; 
+  text-align: center;
 }
 
 .full-width {
@@ -243,8 +248,9 @@ button {
   margin: 0;
   position: absolute;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 18.1px;
   bottom: 0;
+  max-width: 100%;
   width: 100%;
   text-align: center;
   color: white;
@@ -257,8 +263,13 @@ button {
 }
 
 .header__title {
-  font-size: 5.4em;
+  font-size: 64px;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
+  font-weight: bold;
+  margin-bottom: 32px;
 }
 
 .header__subtitle {
@@ -355,9 +366,9 @@ button {
 .honey-pot__subtitle {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  font-weight: extralight;
-  font-size: 42px;
-  color: white;
+  font-weight: 300;
+  font-size: 22px;
+  color: #1a1a1a;
   text-align: center;
 }
 
@@ -474,16 +485,18 @@ button {
 .page-single__title {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  font-weight: light;
-  font-size: 32px;
+  font-weight: 600;
+  font-size: 56px;
+  text-align: left;
   color: #1a1a1a;
 }
 
 .page-single__subtitle {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  font-weight: light;
+  font-weight: 300;
   font-size: 32px;
+  text-align: left;
   color: #1a1a1a;
 }
 
@@ -499,6 +512,25 @@ button {
 * index
 */
 .index-title {
-  text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 75px;
+}
+
+/**
+* Ajout Perso
+*/
+.quote {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #e8a27d;
+  font-size: 24px;
+  border-left: 4px solid #cccccc;
+  padding-left: 8px;
+}
+
+.author_quote {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1a1a1a;
+  text-align: right;
 }
