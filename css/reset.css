@@ -426,3 +426,10 @@ select {
 
 input, select, textarea, label {
   vertical-align: middle; }
+
+/**
+* Ajout Perso
+*/
+.map {
+  object-fit: cover;
+}

@@ -416,6 +416,7 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: medium;
   font-size: 34px;
+  text-align: left;
   color: #1a1a1a;
 }
 
@@ -458,6 +459,7 @@ button {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   margin-bottom: 35px;
+  margin-top: 38px;
 }
 
 .news-list .news-list__news--main {
@@ -557,6 +559,7 @@ button {
 .colonage img {
   width: 100%;
 }
+
 .chapo2 {
   font-size: 25px;
   font-family: 'Work Sans', sans-serif;
@@ -564,4 +567,32 @@ button {
   color: #1a1a1a;
   text-align: justify;
   margin-bottom: 28px;
+}
+
+.chapo3 {
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: #1a1a1a;
+  text-align: justify;
+}
+
+.titre-actualite {
+  font-size: 42px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  color: #1a1a1a;
+}
+
+.colonage2 img {
+  width: 308px;
+  height: 389px;
+  object-fit: contain;
+}
+
+.colonage3 img {
+  width: 280px;
+  height: 281px;
+  object-fit: contain;
+  margin-top: 50px;
 }
