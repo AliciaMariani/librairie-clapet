@@ -606,12 +606,8 @@ button {
   margin-top: 38px;
 }
 
-.news-list2 .news-list2__news--main {
+.news-xl {
   grid-column: span 2;
-}
-
-.news-list2__news {
-  grid-column: span 1;
 }
 
 .news-main2 {
