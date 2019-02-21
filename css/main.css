@@ -205,13 +205,13 @@ button {
 .chapo {
   font-size: 25px;
   max-width: 1440px; 
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 240px;
+  margin-right: 240px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   color: #1a1a1a;
   text-align: center;
-  margin-bottom: 28px;
+  margin-bottom: 60px;
 }
 
 .full-width {
@@ -236,7 +236,7 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  height: 350px;
+  height: 461px;
   background: url("../img/background@2x.png");
   background-size: cover;
   background-position: center bottom;
@@ -314,7 +314,7 @@ button {
 .separator {
   display: block;
   margin: auto;
-  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 
@@ -326,6 +326,7 @@ button {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 106px;
 }
 
 .honey-pot {
@@ -426,6 +427,7 @@ button {
   line-height: 1.4;
   color: #1a1a1a;
   text-align: left;
+  margin-bottom: 94px;
 }
 
 .page-list .news {
@@ -481,6 +483,7 @@ button {
 */
 .page-single {
   text-align: justify;
+  margin-bottom: 978px;
 }
 
 .page-single__header {
@@ -518,7 +521,7 @@ button {
 * index
 */
 .index-title {
-  margin-bottom: 57px;
+  margin-bottom: 75px;
 }
 
 /**
@@ -547,12 +550,13 @@ button {
   display: flex;
   margin: auto;
   text-align: justify;
+  margin-bottom: 99px;
 }
 
 .colonage {
   flex: 1;
   margin-right: 30px;
-
+  margin-left: 30px;
 }
 
 .colonage img {
@@ -593,7 +597,7 @@ button {
   width: 280px;
   height: 281px;
   object-fit: contain;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .news-list2 {
@@ -617,3 +621,14 @@ button {
   margin-bottom: 35px;
   margin-top: 38px;
 }
+
+.header2 {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+  height: 350px;
+  background: url("../img/background@2x.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  overflow: hidden;
