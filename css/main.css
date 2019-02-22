@@ -670,10 +670,22 @@ button {
   }
 }
 
+@media (max-width: 960px) {
+  .news__list {
+    display: block;
+  }
+}
+
+@media (max-width: 960px) {
+  .news-list2 {
+    display: block;
+  }
+}
+
 .test {
   animation-duration: 4s;
   animation-name: glissement;
-  animation-iteration-count: infinite;
+  animation-iteration-count: inherit;
   animation-direction: normal;
 }
 
