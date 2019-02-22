@@ -261,6 +261,7 @@ button {
 }
 .header__content:hover {
   text-decoration: none;
+  
 }
 
 .header__title {
@@ -351,6 +352,8 @@ button {
 
 .honey-pot__thumbnail:hover {
   filter: grayscale(60%);
+  transform: translateY(-50px);
+  opacity: 0.5;
 }
 
 .honey-pot__thumbnail img {
@@ -391,6 +394,8 @@ button {
   -webkit-transition-delay: 0ms;
   -o-transition-delay: 0ms;
   transition-delay: 0ms;
+  transform: translateY(-50px);
+  opacity: 0.5;
 }
 
 
@@ -638,4 +643,21 @@ button {
   display: block;
   margin: auto;
   margin-bottom: 43.2px;
+}
+
+.animations-test {
+  animation-duration: 3s;
+  animation-name: none;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
