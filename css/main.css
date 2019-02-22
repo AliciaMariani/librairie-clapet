@@ -563,6 +563,19 @@ button {
   width: 100%;
 }
 
+.colonage2 img {
+  width: 308px;
+  height: 389px;
+  object-fit: contain;
+}
+
+.colonage3 img {
+  width: 280px;
+  height: 281px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
 .chapo2 {
   font-size: 25px;
   font-family: 'Work Sans', sans-serif;
@@ -585,19 +598,6 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   color: #1a1a1a;
-}
-
-.colonage2 img {
-  width: 308px;
-  height: 389px;
-  object-fit: contain;
-}
-
-.colonage3 img {
-  width: 280px;
-  height: 281px;
-  object-fit: contain;
-  margin-top: 20px;
 }
 
 .news-list2 {
@@ -632,3 +632,10 @@ button {
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
+}
+
+.separator2 {
+  display: block;
+  margin: auto;
+  margin-bottom: 43.2px;
+}
