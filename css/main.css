@@ -348,12 +348,13 @@ button {
   display: inline-block;
   margin-bottom: 10px;
   filter: grayscale(0);
+  transition: 2s all;
 }
 
 .honey-pot__thumbnail:hover {
   filter: grayscale(60%);
   transform: translateY(-50px);
-  opacity: 0.5;
+  color: grey;
 }
 
 .honey-pot__thumbnail img {
@@ -391,11 +392,8 @@ button {
 .news__link:hover .news__thumbnail {
   -webkit-filter: grayscale(60%);
   filter: grayscale(60%);
-  -webkit-transition-delay: 0ms;
-  -o-transition-delay: 0ms;
   transition-delay: 0ms;
-  transform: translateY(-50px);
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 
@@ -614,17 +612,23 @@ button {
   margin-top: 38px;
 }
 
+.news-xl .news__link {
+  display: flex;
+}
+
 .news-xl {
+  grid-column: span 4;
+}
+
+.news-md {
   grid-column: span 2;
 }
 
-.news-main2 {
+.news-main2 .news__link {
   display: grid;
   grid-gap: 35px;
-  grid-template-columns: repeat(2, fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  margin-bottom: 35px;
-  margin-top: 38px;
 }
 
 .header2 {
@@ -645,9 +649,24 @@ button {
   margin-bottom: 43.2px;
 }
 
+.colonage:hover {
+  filter: grayscale(50%);
+  transform: skew(50px);
+}
+
+.colonage2:hover {
+  filter: grayscale(50%);
+  transform: skew(50px);
+}
+
+.colonage3:hover {
+  filter: grayscale(50%);
+  transform: skew(50px);
+}
+
 .animations-test {
-  animation-duration: 3s;
-  animation-name: none;
+  animation-duration: 15s;
+  animation-name: slider;
 }
 
 @keyframes slidein {
