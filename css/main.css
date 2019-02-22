@@ -664,15 +664,23 @@ button {
   transform: skew(50px);
 }
 
-.animations-test {
-  animation-duration: 15s;
-  animation-name: slider;
+@media (max-width: 960px) {
+  .honey-pot-list {
+    display: block;
+  }
 }
 
-@keyframes slidein {
+.test {
+  animation-duration: 4s;
+  animation-name: glissement;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes glissement {
   from {
     margin-left: 100%;
-    width: 300%; 
+    width: 300%;
   }
 
   to {
